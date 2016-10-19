@@ -27,7 +27,7 @@ class App extends Component {
   <tr>
     <td class="tg-s6z2">Ronnie O'Sullivan</td>
     <td class="tg-s6z2">V</td>
-    <td class="tg-s6z2">Steven Hendry</td>
+    <td class="tg-s6z2">Stephen Hendry</td>
   </tr>
   <tr>
     <td class="tg-s6z2">0</td>
