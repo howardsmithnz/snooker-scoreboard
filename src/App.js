@@ -13,12 +13,9 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <h3>Game 1</h3>
+        <h3>Scoreboard</h3>
         
 <table class="tg">
-  <tr>
-    <th class="tg-s6z2" colspan="3">Title</th>
-  </tr>
   <tr>
     <td class="tg-baqh">Photo</td>
     <td class="tg-baqh">Change Player</td>
@@ -49,11 +46,8 @@ class App extends Component {
   </tr>
 </table>
 
-<p></p>
+<p>Add points</p>
 <table class="tg">
-  <tr>
-    <th class="tg-yw4l" colspan="9">Add points</th>
-  </tr>
   <tr>
     <td class="tg-031e">1</td>
     <td class="tg-031e">2</td>
