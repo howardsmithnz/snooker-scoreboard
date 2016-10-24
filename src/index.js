@@ -8,7 +8,21 @@ import App from './App';
 
 import './index.css';
 
+import { reducer } from './state/reducer.js'
+
+const store = createStore(
+  reducer,
+  window.devToolsExtension && window.devToolsExtension()
+)
+
+
 ReactDOM.render(
-  <App />,
+  <Provider store={store}>
+    <Router history={browserHistory}>
+      <Route path='/' component={App}>
+        <App />
+      </Route>
+    </Router>
+  </Provider>,
   document.getElementById('root')
 );
